@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+##### 🚀 Cloud Code Editor  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **cloud-based** code editor that allows users to write, save, and execute code directly in their browser! Supports **multiple programming languages**, cloud storage, and built-in **IntelliSense** for a better coding experience.  
 
-## Available Scripts
+## 🌟 Features  
 
-In the project directory, you can run:
+✅ **Multi-Language Support** (JavaScript, Python, C++, Java)  
+✅ **Cloud Storage** (Save & retrieve files using Firebase)  
+✅ **Code Execution** (Powered by Judge0 API)  
+✅ **Download & Upload Files**  
+✅ **IntelliSense / Autocompletion** (via Monaco Editor)  
+✅ **Dark Mode & Modern UI**  
 
-### `npm start`
+ 
+## 📸 Screenshot  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Cloud Code Editor Screenshot](![image](https://github.com/user-attachments/assets/6614ea4c-57fc-4c89-ad45-0335bc829025)
+) <!-- Add a real screenshot -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Installation & Setup  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/aryansingh2206/Cloud-Code-Editor.git
+   cd Cloud-Code-Editor
+   ```
 
-### `npm run build`
+2. **Install dependencies**  
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server**  
+   ```sh
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Tech Stack  
 
-### `npm run eject`
+- **Frontend:** React.js, TailwindCSS  
+- **Code Editor:** Monaco Editor (VS Code Engine)  
+- **Backend:** Firebase (Cloud Storage)  
+- **Execution Engine:** Judge0 API  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Deployment  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can deploy this project on **Vercel, Netlify, or Firebase Hosting.**  
+Follow these steps to deploy on **Vercel**:  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Install Vercel CLI:  
+   ```sh
+   npm install -g vercel
+   ```  
+2. Deploy:  
+   ```sh
+   vercel
+   ```  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you’d like to improve this project:  
 
-### Code Splitting
+1. **Fork** the repository  
+2. **Create a branch** (`git checkout -b feature-name`)  
+3. **Commit your changes** (`git commit -m "Added new feature"`)  
+4. **Push to the branch** (`git push origin feature-name`)  
+5. **Submit a Pull Request** 🚀  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 **Have a feature request?** Open an [issue](https://github.com/aryansingh2206/Cloud-Code-Editor/issues).  
