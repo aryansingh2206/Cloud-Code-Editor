@@ -13,9 +13,8 @@ A **cloud-based** code editor that allows users to write, save, and execute code
 
  
 ## 📸 Screenshot  
+![image](https://github.com/user-attachments/assets/e091cbad-c0d4-41c9-9416-8a08a65a83ca)
 
-![Cloud Code Editor Screenshot](![image](https://github.com/user-attachments/assets/6614ea4c-57fc-4c89-ad45-0335bc829025)
-) <!-- Add a real screenshot -->
 
 ---
 
