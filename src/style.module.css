@@ -1,0 +1,111 @@
+/* Apply a modern gradient background */
+.appContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Styling for the title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Input fields */
+  .inputField {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Select dropdown */
+  .selectDropdown {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .saveButton {
+    background: #34d399;
+    color: white;
+  }
+  
+  .saveButton:hover {
+    background: #059669;
+  }
+  
+  .runButton {
+    background: #f59e0b;
+    color: white;
+  }
+  
+  .runButton:hover {
+    background: #d97706;
+  }
+  
+  /* Code Editor Styling */
+  .codeEditor {
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Output styling */
+  .outputContainer {
+    width: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+  }
+  
+  /* File List Styling */
+  .fileList {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .fileItem {
+    cursor: pointer;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .fileItem:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
